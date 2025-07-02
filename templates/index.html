@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote</title>
+    <style>
+        body {
+            background-color:aqua;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .quotebox {
+            width: 500px;
+            height: 500px;
+            background-color: black;
+            color: red;
+            border: 1px solid blue;
+            margin: 200px auto;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .quote {
+            font-size: 30px;
+            background-color: rgb(231, 225, 225);
+            border-radius: 20px;
+            padding: 20px;
+            text-align: center;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="quotebox">
+        <div class="quote">{{ quote }}</div>
+    </div>
+</body>
+</html>
